@@ -1,2 +1,2 @@
 # Android_LocationSearch
-위치 검색 앱
+안드로이드 연습용 위치 검색 앱
