@@ -1,4 +1,5 @@
 package com.example.myapplication.model.response
 
-class Pois {
-}
+data class Pois(
+    val poi: List<Poi>
+)

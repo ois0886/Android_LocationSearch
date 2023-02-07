@@ -6,9 +6,13 @@ import android.os.Bundle
 import android.util.Log
 import android.widget.Toast
 import androidx.core.view.isVisible
+import com.example.myapplication.MapActivity.Companion.SEARCH_RESULT_EXTRA_KEY
 import com.example.myapplication.databinding.ActivityMainBinding
 import com.example.myapplication.model.entity.LocationLatLngEntity
 import com.example.myapplication.model.entity.SearchResultEntity
+import com.example.myapplication.model.response.Poi
+import com.example.myapplication.model.response.Pois
+import com.example.myapplication.utillity.RetrofitUtil
 import kotlinx.coroutines.*
 import kotlin.coroutines.CoroutineContext
 

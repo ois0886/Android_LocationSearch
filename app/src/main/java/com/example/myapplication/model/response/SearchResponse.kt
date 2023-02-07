@@ -1,4 +1,5 @@
 package com.example.myapplication.model.response
 
-class SearchResponse {
-}
+data class SearchResponse(
+    val searchPoiInfo: SearchPoiInfo
+)

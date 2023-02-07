@@ -1,4 +1,5 @@
 package com.example.myapplication.model.response
 
-class AddressInfoResponse {
-}
+data class AddressInfoResponse(
+    val addressInfo: AddressInfo
+)

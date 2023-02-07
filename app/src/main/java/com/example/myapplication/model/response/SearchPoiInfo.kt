@@ -1,4 +1,8 @@
 package com.example.myapplication.model.response
 
-class SearchPoiInfo {
-}
+data class SearchPoiInfo(
+    val totalCount: String,
+    val count: String,
+    val page: String,
+    val pois: Pois
+)
